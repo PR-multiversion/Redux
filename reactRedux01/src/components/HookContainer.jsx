@@ -5,7 +5,7 @@ useSelector
 
 function HookContainer() {
 
-    const pizzaBase = useSelector(state => state.pizzaBase);
+    const pizzaBase = useSelector(state => state.pizza.pizzaBase);
     const dispatch = useDispatch();
 
   return (
